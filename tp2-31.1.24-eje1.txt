@@ -1,0 +1,13 @@
+a_i_ if((sexo=='M'||sexo=='F')&&edad>17&&edad<30&&cantSeguidores>1000&&(residencia=='Bs.As'||residencia=='Cordoba'))
+a_ii_ if(sexo=='F'&&edad>40&&(residencia=='Corrientes'||residencia=='Chaco'))
+a_iii_ if(sexo=='M'&&cantSeguidores<100&&!(residencia=='Buenos Aires')
+
+b_i_ if(((sexo=='V'||sexo=='M')&&edad>17&&edad<25&&(trabaja=='Verdadero'||estudia=='verdadero'))||(sexo=='V'&&edad<25&&trabajan'Verdadero'&&estudia=='Falso))
+b_ii_ if((sexo=='V'||sexo=='M')&&edad>25&&estudia=='Falso'))
+
+c_i_ if(cantIntegrantesFamilia<7&&viviendaFamiliar=='NO'&&(planSocial=='NO'||montoMensual<1000))
+ii_ if(cantIntegrantesFamilia==2&&viviendaFamiliar=='SI'&&(planSocial=='Si'||trabaja=='NO'))
+iii_ if(montoMensual>10000&&trabajan=='SI'&&viviendaFamiliar=='SI')
+
+d_i_ if(cantSeguidores>cantCuentasSeguidas&&cantMeGustas>1500&&(codHashtag==2||codHashtag==3))
+ii_ if(cantSeguidores<cantCuentasSeguidas&&cantMeGustas>1200&&codHashtag==1)
