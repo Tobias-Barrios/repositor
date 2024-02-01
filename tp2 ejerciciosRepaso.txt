@@ -1,5 +1,5 @@
 2_a_ if(sexo=="F"&&categoria=="C"&&(provOrigen==3||provOrigen==1))
 b_ if(sexo=="M"&&edad==10&&edad==12&&provOrigen==2)
 
-3_a_ if((genero==1||genero==2)&&precioDescarga>350&&precioDescarga<750&&cantDescargas>5000)
-b_ if((genero==4||genero==3)&&precioDescarga>150&&precioDescarga<500&&cantDescargas<4000)
+3_a_ if(tipoContenido==1&&(genero==1||genero==2)&&precioDescarga>350&&precioDescarga<750&&cantDescargas>5000)
+b_ if(tipoContenido==2&&(genero==4||genero==3)&&precioDescarga>150&&precioDescarga<500&&cantDescargas<4000)
