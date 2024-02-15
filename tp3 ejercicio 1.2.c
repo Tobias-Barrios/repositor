@@ -5,8 +5,8 @@
 
 //Prototipado Funciones
 void visualizarConejo();
-void cabeza();
-void cuerpo();
+void orejas();
+void cara();
 void patas();
 
 //Prototipado variables Globales
@@ -17,16 +17,16 @@ return 0;
 }
 
 void visualizarConejo(){
-	cabeza();
-	cuerpo();
+	orejas();
+	cara();
 	patas();
 }
 
-void cabeza(){
+void orejas(){
 	printf(" (\\__/)\n");
 }
 
-void cuerpo(){
+void cara(){
 	printf(" (>'.'<)\n");
 }
 

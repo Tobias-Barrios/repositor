@@ -24,7 +24,7 @@ void ingresarDatos(){
 	scanf("%f", &largo);
 }
 float calcularPerimetro(float ancho, float largo){
-	return ancho * largo;
+	return 2 * (ancho + largo);
 }
 void visualizarDatos(){
 	system("cls");
